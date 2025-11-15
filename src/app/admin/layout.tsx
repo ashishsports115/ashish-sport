@@ -1,7 +1,6 @@
 import { redirect } from 'next/navigation';
 import { headers } from 'next/headers';
 import { requireAuth } from '@/lib/auth';
-import { AdminHeader } from '@/components/AdminHeader';
 
 export default async function AdminLayout({
     children,
@@ -20,13 +19,12 @@ export default async function AdminLayout({
 
         return (
             <div className="min-h-screen bg-gray-50">
-                <AdminHeader />
                 <div className="container mx-auto px-4 py-8">{children}</div>
             </div>
         );
     }
 
-    // For login page, render without auth check and without AdminHeader
+    // For login page, render without auth check
     return (
         <div className="min-h-screen bg-gray-50">
             {children}
