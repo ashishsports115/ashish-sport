@@ -131,7 +131,7 @@ export function ContactForm({ searchParams }: ContactFormProps) {
 
             {success && (
                 <div className="bg-green-50 border border-green-200 text-green-700 px-4 py-3">
-                    <p className="text-sm font-medium">Thank you for your message! We'll get back to you soon. Redirecting...</p>
+                    <p className="text-sm font-medium">Thank you for your message! We&apos;ll get back to you soon. Redirecting...</p>
                 </div>
             )}
 

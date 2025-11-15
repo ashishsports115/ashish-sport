@@ -30,7 +30,7 @@ export default async function ContactPage({
                             Get In Touch
                         </h1>
                         <p className="text-lg text-gray-600 font-light mb-8">
-                            Have a question about our sport outfits? Send us a message and we'll get back to you soon.
+                            Have a question about our sport outfits? Send us a message and we&apos;ll get back to you soon.
                         </p>
 
                         {company && (
